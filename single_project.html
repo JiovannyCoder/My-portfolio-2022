@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Ji 2022</title>
+    <link rel="stylesheet" href="lib/fontawsome/css/all.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/single_project.css">
+
+    <script defer src="lib/fontawsome/js/all.min.js"></script>
+    <script defer src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script defer src="js/index.js"></script> -->
+</head>
+<body data-bs-spy="scroll" data-bs-target=".scroll" data-bs-offset="50" tabindex="0">
+    <!-- navigation -->
+    <nav id="myNavBar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Web-Ji</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#myOffcanvas" aria-controls="myOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu basic -->
+            <div class="navbar-collapse collapse scroll" id="myMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item">
+                        <a href="#hero" class="nav-link">Acceuil</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="nav-link">A propos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- menu offcanvas -->
+    <div class="offcanvas w-75 offcanvas-start text-white shadow-sm d-lg-none" data-bs-scroll="true"  id="myOffcanvas" tabindex="-1" data-bs-backdrop="false">
+        <div class="container">
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title mt-1">Web-Ji</h4>
+                <button type="button" class="fs-4 fas fa-times" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div id="sidebar-menu">
+                    <nav class="navbar-nav scroll">
+                        <a class="nav-link active" href="#hero" >Acceuil</a>
+                        <a class="nav-link" href="#about" >A propos</a>
+                        <a class="nav-link" href="#services" >Services</a>
+                        <a class="nav-link" href="#portfolio" >Portfolio</a>
+                        <a class="nav-link" href="#contact" >Contact</a>
+                    </nav>
+                </div>
+                <ul class="social justify-content-lg-start justify-content-center">
+                    <li class="social-item"><a href=""><span class="fab fa-linkedin"></span></a></li>
+                    <li class="social-item"><a href=""><span class="fab fa-github"></span></a></li>
+                    <li class="social-item"><a href=""><span class="fab fa-facebook"></span></a></li>
+                    <li class="social-item"><a href=""><span class="fab fa-instagram"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider-10"></div>
+    <div class="banner bg-radiant-blue">
+        <div class="container">
+            <h3>Project > Afrodyta</h3>
+        </div>
+    </div>
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-lg-6 py-3">
+                <h4>Images du projet</h4>
+                <img class="img-fluid" src="image/project/actrices.jpg" alt="">
+            </div>
+            <div class="col-lg-6 py-3">
+                <h4>Description du projet</h4>
+                <p>Mon premier site web créé en html et css. Un site où j'ai appris les bases et qui m'a donné la passion du développement web</p>
+                <h5 class="py-3">Languages utilisés</h5>
+                <ul>
+                    <li>html</li>
+                    <li>javascript</li>
+                    <li>css</li>
+                    <li>scss</li>
+                    <li>php</li>
+                </ul>
+                <h5>Lien Github</h5>
+                <a href="#">Voir le projet sur Github</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider-10"></div>
+    <section id="contact" class="pt-8">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="title-blue text-uppercase">Contact</h2>
+                <p>Contactez moi</p>
+            </div>
+            <div class="row gy-4 py-5">
+                <div class="col-lg-6">
+                    <div class="row gy-4">
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/Adress.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Adresse</h4>
+                                    <p>Antananarivo <br> Madagascar Itaosy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/phone.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Téléphone</h4>
+                                    <p>+261 34 73 862 80 <br>+261 32 72 825 79</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/email.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Email</h4>
+                                    <p>Haritinamg@gmail.com <br> Web-jimg@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/clock.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Disponibilité</h4>
+                                    <p>Lundi au vendredi <br> Freelance possible</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card p-4 h-100 border-0">
+                        <form action="">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input id="name" name="name" type="text" class="form-control my-3" placeholder="Nom">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input id="email" name="email" type="text" class="form-control my-3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <input id="object" type="text" name="object" class="form-control my-3" placeholder="Objet">
+                                <textarea name="message" id="message" class="form-control my-3" rows="5" placeholder="Message"></textarea>
+                            <div class="form-action text-center pt-4">
+                                <button type="submit"class="call-to-action"><span class="me-1 fa fa-paper-plane"></span> Envoyer le message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="py-4">
+        <div class="container">
+            <div class="title text-center text-white">
+                <p>© Copyright <b>Web-Ji</b> tous droits réservés
+                <br> Designed by Haritina Jiovanny</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

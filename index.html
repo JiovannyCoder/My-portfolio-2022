@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Ji 2022</title>
+    <link rel="stylesheet" href="lib/fontawsome/css/all.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="lib/fontawsome/js/all.min.js"></script>
+    <script defer src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".scroll" data-bs-offset="50" tabindex="0">
+    <header id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                   <div class="hero-text position-absolute top-50 translate-middle-y w-100">
+                        <h1 class="display-4 py-2 text-center text-lg-start">Developpeur Web <br> Laravel & Vue Js</h1>
+                        <p class="p-2 text-center text-lg-start">Vous cherchez un développueur spécialisé en Laravel et Vue Js ? <br> <b>Haritina Jiovanny</b> est là pour vous.</p>
+                        <ul class="social justify-content-lg-start justify-content-center">
+                            <li class="social-item"><a href=""><span class="fab fa-linkedin"></span></a></li>
+                            <li class="social-item"><a href=""><span class="fab fa-github"></span></a></li>
+                            <li class="social-item"><a href=""><span class="fab fa-facebook"></span></a></li>
+                            <li class="social-item"><a href=""><span class="fab fa-instagram"></span></a></li>
+                        </ul>
+                        <div class="d-flex flex-row justify-content-lg-start justify-content-center">
+                            <a href="#portfolio" class="call-to-action me-4">Voir les projets <span class="ms-1 fa fa-project-diagram"></span></a>
+                            <a href="#about" class="call-to-action-outline">Voir a propos <span class="ms-1 fa fa-user-astronaut"></span></a>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-lg-6 me">
+                    <img src="image/pc.png" alt="Haritina Jiovanny" class="hero-img position-absolute top-50 translate-middle-y w-100">
+                </div>
+            </div>
+        </div>
+        <a class="to-top shadow" href="#hero"><i class="fa fa-arrow-up"></i></a>
+    </header>
+    <nav id="myNavBar" class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Web-Ji</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#myOffcanvas" aria-controls="myOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu basic -->
+            <div class="navbar-collapse collapse scroll" id="myMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item">
+                        <a href="#hero" class="nav-link">Acceuil</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="nav-link">A propos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- menu offcanvas -->
+    <div class="offcanvas w-75 offcanvas-start text-white shadow-sm d-lg-none" data-bs-scroll="true"  id="myOffcanvas" tabindex="-1" data-bs-backdrop="false">
+        <div class="container">
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title mt-1">Web-Ji</h4>
+                <button type="button" class="fs-4 fas fa-times" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div id="sidebar-menu">
+                    <nav class="navbar-nav scroll">
+                        <a class="nav-link active" href="#hero" >Acceuil</a>
+                        <a class="nav-link" href="#about" >A propos</a>
+                        <a class="nav-link" href="#services" >Services</a>
+                        <a class="nav-link" href="#portfolio" >Portfolio</a>
+                        <a class="nav-link" href="#contact" >Contact</a>
+                    </nav>
+                </div>
+                <ul class="social justify-content-lg-start justify-content-center">
+                    <li class="social-item"><a href=""><span class="fab fa-linkedin"></span></a></li>
+                    <li class="social-item"><a href=""><span class="fab fa-github"></span></a></li>
+                    <li class="social-item"><a href=""><span class="fab fa-facebook"></span></a></li>
+                    <li class="social-item"><a href=""><span class="fab fa-instagram"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="about">
+        <div class="container pt-8">
+            <div class="title text-center">
+                <h2 class="title-blue text-uppercase">A propos</h2>
+                <p>Laissez moi l'honneur de me présenter. <br> Je me nomme Haritina Jiovanny et je suis particulièrement passionné du web.</p>
+            </div>
+            <div class="about-me py-5">
+                <div class="row gy-4">
+                    <div class="col-lg-3">
+                       <div>
+                            <img src="image/MeProfile.jpg" alt="Jiovanny Profile" class="img-fluid">
+                       </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <h3 class="title-blue">Developpeur Web Laravel & Vue js</h3>
+                        <p>Je suis un codeur habitué dans le language front-end avec Vue js mais aussi très à l'aise en developpement back-end avec Laravel PHP.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="arrowAbout">
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Nom :</b> Haritina Jiovanny</li>
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Site web :</b> Web-Ji.com</li>
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Téléphone :</b> +261 34 73 862 80</li>
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Ville :</b> Antananarivo, Madagascar</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="arrowAbout">
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Github :</b> JiovannyCoder</li>
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Skype :</b> Haritina Jiovanny</li>
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Email :</b> Haritinamg@gmail.com</li>
+                                    <li><span class="me-2 fa fa-caret-right"></span><b>Freelance :</b> Possible</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <div class="container pt-8">
+                <div class="title text-center">
+                    <h2 class="title-blue text-uppercase">Mes Skills</h2>
+                    <p>Voici mes connaissances en programmation et développement web.</p>
+                </div>
+                <div class="row py-5 gy-4">
+                    <div class="col-md-6">
+                        <h3 class="title-blue">Languages de base</h3>
+                        <p class="text-uppercase">HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%;"></div>
+                        </div>
+                        <p class="text-uppercase">CSS3</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                        <p class="text-uppercase">JAVASCRIPT</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;"></div>
+                        </div>
+                        <p class="text-uppercase">PHP</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="title-blue" class="pt-md-0">Frameworks maitrisé</h3>
+                        <p class="text-uppercase">Laravel</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                        <p class="text-uppercase">Vue Js</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                        <p class="text-uppercase">Bootstrap</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                        <p class="text-uppercase">WordPress</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <p class="pt-5">En plus de ces outils, je suis pleinnement autonome dans les environnements de développment que ce soit en JS ( Node js, npm, webpack, ... ) ou en PHP ( MySQL, PHPMyAdmin, CMS, ... ). Aussi, je possède de solides connaissances en Adobe Photoshop et Illustrator.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="pt-8">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="text-uppercase title-white">Services</h2>
+                <p class="text-white">Voici donc tous les services que je peux rendre en ma qualité de développeur.</p>
+            </div>
+            <div class="row py-5 gy-4">
+                <div class="col-lg-4">
+                    <div class="card text-center border-0 shadow pb-5">
+                        <img src="image/service-integration.svg" alt="" class="card-img-top myCardImg">
+                        <div class="card-body">
+                            <h4 class="card-title title-blue">Intégration web</h4>
+                            <p class="card-text">Création de site web : d'une maquette jusqu'au navigateur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center border-0 shadow pb-5">
+                        <img src="image/service-front-end-dev.svg" alt="" class="card-img-top myCardImg">
+                        <div class="card-body">
+                            <h4 class="card-title title-blue">Développement front-end</h4>
+                            <p class="card-text">Implémentation de Vue Js pour optimiser la réactivité du site</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center border-0 shadow pb-5">
+                        <img src="image/service-back-end-dev.svg" alt="" class="card-img-top myCardImg">
+                        <div class="card-body">
+                            <h4 class="card-title title-blue">Développement back-end</h4>
+                            <p class="card-text">Utilisation du framework PHP Laravel pour la gestion des données</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="pt-8">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="title-blue text-uppercase">Portfolio</h2>
+                <p>Voici donc tous les projets qui m'ont permis de grandir dans le domaine du developpement.</p>
+            </div>
+            <div class="row gy-4 py-5">
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/voyage.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/serpent.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/burger.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/actrices.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/tanatos.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/laravel_blog.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/afrodyta.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/vuejs.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card position-relative border-0">
+                        <img src="image/project/tanatos.jpg" alt="" class="card-img-top">
+                        <div class="card-body myOverlay">
+                            <div class="overlay-content">
+                                <h4 class="card-title">Project 1</h4>
+                                <p>Web</p>
+                                <a href="#" class="card-link"><i class="fa fa-plus"></i></a>
+                                <a href="#" class="card-link"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="pt-8">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="title-blue text-uppercase">Contact</h2>
+                <p>Contactez moi</p>
+            </div>
+            <div class="row gy-4 py-5">
+                <div class="col-lg-6">
+                    <div class="row gy-4">
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/Adress.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Adresse</h4>
+                                    <p>Antananarivo <br> Madagascar Itaosy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/phone.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Téléphone</h4>
+                                    <p>+261 34 73 862 80 <br>+261 32 72 825 79</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/email.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Email</h4>
+                                    <p>Haritinamg@gmail.com <br> Web-jimg@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card p-3 border-0">
+                                <img src="image/icons/clock.svg" alt="" class="card-img-top w-25">
+                                <div class="card-body">
+                                    <h4 class="title-blue">Disponibilité</h4>
+                                    <p>Lundi au vendredi <br> Freelance possible</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card p-4 h-100 border-0">
+                        <form action="">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input id="name" name="name" type="text" class="form-control my-3" placeholder="Nom">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input id="email" name="email" type="text" class="form-control my-3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <input id="object" type="text" name="object" class="form-control my-3" placeholder="Objet">
+                                <textarea name="message" id="message" class="form-control my-3" rows="5" placeholder="Message"></textarea>
+                            <div class="form-action text-center pt-4">
+                                <button type="submit"class="call-to-action"><span class="me-1 fa fa-paper-plane"></span> Envoyer le message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="py-4">
+        <div class="container">
+            <div class="title text-center text-white">
+                <p>© Copyright <b>Web-Ji</b> tous droits réservés
+                <br> Designed by Haritina Jiovanny</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

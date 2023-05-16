@@ -1,0 +1,16 @@
+.divider-10 {
+    height: 10vh;
+}
+.bg-radiant-blue {
+    background-image: url(../image/bg-footer\ radiant.png);
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+.banner {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
